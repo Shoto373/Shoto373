@@ -95,7 +95,7 @@
 
 <!-- EDIT_ME: Замените ссылки ниже на ваши реальные контакты (Telegram, Email, VK, Portfolio) -->
 
-  <a href="https://t.me/your_telegram_username" target="_blank">
+  <a href="https://t.me/Shoto373" target="_blank">
     <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/>
   </a>
   &nbsp;
