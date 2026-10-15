@@ -1,17 +1,8 @@
 <div align="center">
 
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,2,3&height=180&section=header&text=%D0%94%D0%BE%D0%B1%D1%80%D0%BE%20%D0%BF%D0%BE%D0%B6%D0%B0%D0%BB%D0%BE%D0%B2%D0%B0%D1%82%D1%8C!&fontSize=38&fontColor=ffffff&fontAlignY=40&animation=fadeIn" width="100%"/>
+  <h1>Привет, я Максим 👋</h1>
 
-  <a href="https://github.com/Shoto373">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=3000&pause=1000&color=00D2FF&center=true&vCenter=true&width=680&height=50&lines=Software+Engineer+%E2%80%A2+Full-Stack+%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%87%D0%B8%D0%BA;Go+%E2%80%A2+TypeScript+%E2%80%A2+React+%E2%80%A2+Python;%F0%9F%A5%89+3+%D0%BC%D0%B5%D1%81%D1%82%D0%BE+%D0%BD%D0%B0+%D1%85%D0%B0%D0%BA%D0%B0%D1%82%D0%BE%D0%BD%D0%B5+PostCode+Challenge+2026;%D0%A0%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0+%D0%B2%D1%8B%D1%81%D0%BE%D0%BA%D0%BE%D0%BD%D0%B0%D0%B3%D1%80%D1%83%D0%B6%D0%B5%D0%BD%D0%BD%D1%8B%D1%85+%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC" alt="Typing SVG" />
-  </a>
-
-  <p align="center">
-    <br/>
-    <a href="https://github.com/Shoto373?tab=followers"><img src="https://img.shields.io/github/followers/Shoto373?label=%D0%9F%D0%BE%D0%B4%D0%BF%D0%B8%D1%81%D1%87%D0%B8%D0%BA%D0%B8&style=flat-square&color=00D2FF&labelColor=161B22" alt="Подписчики"/></a>
-    <a href="https://github.com/Shoto373?tab=repositories"><img src="https://img.shields.io/github/stars/Shoto373?label=%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D1%8B&style=flat-square&color=FF416C&labelColor=161B22" alt="Звёзды"/></a>
-    <a href="https://github.com/Shoto373"><img src="https://img.shields.io/badge/%D0%A1%D1%82%D0%B0%D1%82%D1%83%D1%81-%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D1%8E%20%D0%BA%D1%80%D1%83%D1%82%D1%8B%D0%B5%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B-brightgreen?style=flat-square&labelColor=161B22" alt="Статус"/></a>
-  </p>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=3000&pause=1000&color=00D2FF&center=true&vCenter=true&width=680&height=50&lines=Software+Engineer+%E2%80%A2+Full-Stack+%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%87%D0%B8%D0%BA;Go+%E2%80%A2+TypeScript+%E2%80%A2+React+%E2%80%A2+Python;%F0%9F%A5%89+3+%D0%BC%D0%B5%D1%81%D1%82%D0%BE+%D0%BD%D0%B0+%D1%85%D0%B0%D0%BA%D0%B0%D1%82%D0%BE%D0%BD%D0%B5+PostCode+Challenge+2026;%D0%A0%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%87%D0%B8%D0%BA+%D0%B2%D1%8B%D1%81%D0%BE%D0%BA%D0%BE%D0%BD%D0%B0%D0%B3%D1%80%D1%83%D0%B6%D0%B5%D0%BD%D0%BD%D1%8B%D1%85+%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC" alt="Typing SVG" />
 
 </div>
 
@@ -23,8 +14,7 @@
 - 🎓 **Специализация:** Архитектура бэкенда, высоконагруженные сервисы и Full-stack разработка
 - 🏆 **Главное достижение:** **🥉 3 место (Бронзовый призёр)** на всероссийском хакатоне **PostCode Challenge 2026** (система цифровой очереди Почты России)
 - 💡 **Интересы:** Чистая архитектура, многопоточность в Go, Cloud Native экосистема и быстрые веб-интерфейсы
-- 🌱 **Изучаю и развиваю:** Распределённые отказоустойчивые системы, Kubernetes-операторы, паттерны кэширования и AI-агентов
-- 💬 **Отвечу на вопросы по:** `Go`, `TypeScript`, `React`, `PostgreSQL`, `Docker`, `Kubernetes`
+- 🌱 **Изучаю и развиваю:** Распределённые отказоустойчивые системы, Kubernetes-операторы и паттерны кэширования
 
 ---
 
@@ -105,10 +95,4 @@
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
 
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,2,3&height=100&section=footer" width="100%"/>
 </div>
