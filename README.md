@@ -3,10 +3,11 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,2,3&height=180&section=header&text=Welcome%20to%20my%20profile!&fontSize=38&fontColor=ffffff&fontAlignY=40&animation=fadeIn" width="100%"/>
 
   <a href="https://github.com/Shoto373">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=00D2FF&center=true&vCenter=true&multiline=true&width=620&height=75&lines=Software+Engineer+%E2%80%A2+Full-Stack+Developer;Go+%E2%80%A2+TypeScript+%E2%80%A2+React+%E2%80%A2+Python;%F0%9F%A5%89+3rd+Place+Winner+%40+PostCode+Challenge+2026;Building+scalable%2C+high-load+%26+modern+systems" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00D2FF&center=true&vCenter=true&width=650&height=50&lines=Software+Engineer+%E2%80%A2+Full-Stack+Developer;Go+%E2%80%A2+TypeScript+%E2%80%A2+React+%E2%80%A2+Python;%F0%9F%A5%89+3rd+Place+Winner+%40+PostCode+Challenge+2026;Building+scalable%2C+high-load+%26+modern+systems" alt="Typing SVG" />
   </a>
 
   <p align="center">
+    <br/>
     <a href="https://github.com/Shoto373?tab=followers"><img src="https://img.shields.io/github/followers/Shoto373?label=Followers&style=flat-square&color=00D2FF&labelColor=161B22" alt="Followers"/></a>
     <a href="https://github.com/Shoto373?tab=repositories"><img src="https://img.shields.io/github/stars/Shoto373?label=Total%20Stars&style=flat-square&color=FF416C&labelColor=161B22" alt="Stars"/></a>
     <a href="https://github.com/Shoto373"><img src="https://img.shields.io/badge/Status-Building%20Awesome%20Things-brightgreen?style=flat-square&labelColor=161B22" alt="Status"/></a>
