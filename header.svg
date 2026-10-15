@@ -1,0 +1,164 @@
+<svg width="100%" height="240" viewBox="0 0 900 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e17" />
+      <stop offset="50%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#140b18" />
+    </linearGradient>
+
+    <linearGradient id="neonCyanPink" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00D2FF">
+        <animate attributeName="stop-color" values="#00D2FF;#00F2FE;#7928CA;#00D2FF" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#FF416C">
+        <animate attributeName="stop-color" values="#FF416C;#FF4B2B;#7928CA;#FF416C" dur="8s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <linearGradient id="wave1Grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00D2FF" stop-opacity="0.35" />
+      <stop offset="50%" stop-color="#7928CA" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#FF416C" stop-opacity="0.35" />
+    </linearGradient>
+
+    <linearGradient id="wave2Grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF416C" stop-opacity="0.25" />
+      <stop offset="50%" stop-color="#3A7BD5" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#00D2FF" stop-opacity="0.3" />
+    </linearGradient>
+
+    <filter id="glowCyan" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="glowText" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes waveSlow {
+      0% { transform: translateX(0); }
+      50% { transform: translateX(-40px); }
+      100% { transform: translateX(0); }
+    }
+    @keyframes waveFast {
+      0% { transform: translateX(0); }
+      50% { transform: translateX(35px); }
+      100% { transform: translateX(0); }
+    }
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.85; filter: drop-shadow(0 0 10px rgba(0, 210, 255, 0.6)); }
+      50% { opacity: 1; filter: drop-shadow(0 0 22px rgba(255, 65, 108, 0.85)); }
+    }
+    @keyframes starTwinkle {
+      0%, 100% { opacity: 0.2; transform: scale(0.8); }
+      50% { opacity: 0.9; transform: scale(1.3); }
+    }
+    @keyframes boltFloat {
+      0%, 100% { transform: translateY(0px) rotate(0deg); }
+      50% { transform: translateY(-4px) rotate(1deg); }
+    }
+
+    .wave-bg1 {
+      animation: waveSlow 10s ease-in-out infinite;
+    }
+    .wave-bg2 {
+      animation: waveFast 7s ease-in-out infinite;
+    }
+    .main-title {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 800;
+      font-size: 38px;
+      letter-spacing: 2px;
+      fill: url(#neonCyanPink);
+      animation: pulseGlow 6s ease-in-out infinite;
+    }
+    .sub-title {
+      font-family: 'Fira Code', Consolas, Monaco, 'Courier New', monospace;
+      font-weight: 600;
+      font-size: 15px;
+      letter-spacing: 3px;
+      fill: #8b949e;
+    }
+    .star {
+      animation: starTwinkle 3s ease-in-out infinite;
+      transform-origin: center;
+    }
+    .star-d1 { animation-delay: 0.5s; }
+    .star-d2 { animation-delay: 1.2s; }
+    .star-d3 { animation-delay: 2.1s; }
+    .star-d4 { animation-delay: 1.7s; }
+  </style>
+
+  <!-- Canvas Background -->
+  <rect width="900" height="240" rx="14" fill="url(#bgGrad)" stroke="#30363d" stroke-width="1.5" />
+
+  <!-- Animated Stars / Neon Sparkles -->
+  <g fill="#00D2FF">
+    <circle cx="80" cy="45" r="2" class="star star-d1" />
+    <circle cx="220" cy="30" r="1.5" class="star star-d3" />
+    <circle cx="780" cy="50" r="2.5" class="star star-d2" />
+    <circle cx="680" cy="35" r="1.5" class="star star-d4" />
+  </g>
+  <g fill="#FF416C">
+    <circle cx="140" cy="70" r="2" class="star star-d2" />
+    <circle cx="820" cy="85" r="2" class="star star-d1" />
+    <circle cx="740" cy="110" r="1.5" class="star star-d3" />
+    <circle cx="100" cy="115" r="2" class="star star-d4" />
+  </g>
+
+  <!-- Flowing Wave Layer 2 (Background wave) -->
+  <g class="wave-bg2">
+    <path d="M-50,150 Q180,110 420,155 T950,140 L950,240 L-50,240 Z" fill="url(#wave2Grad)" />
+  </g>
+
+  <!-- Flowing Wave Layer 1 (Foreground wave) -->
+  <g class="wave-bg1">
+    <path d="M-50,175 Q200,210 460,165 T950,185 L950,240 L-50,240 Z" fill="url(#wave1Grad)" />
+  </g>
+
+  <!-- Subtle grid lines overlay on bottom -->
+  <line x1="0" y1="210" x2="900" y2="210" stroke="#30363d" stroke-opacity="0.3" stroke-dasharray="4 4" />
+  <line x1="0" y1="225" x2="900" y2="225" stroke="#30363d" stroke-opacity="0.2" stroke-dasharray="6 6" />
+
+  <!-- Dual Lightning Avatar Emblem in Center Top -->
+  <g transform="translate(450, 42)" style="animation: boltFloat 4s ease-in-out infinite;">
+    <!-- Outer Glow Circle -->
+    <circle cx="0" cy="0" r="26" fill="#0d1117" stroke="url(#neonCyanPink)" stroke-width="2.5" filter="url(#glowCyan)" />
+    <!-- Cyan Left Lightning Bolt -->
+    <path d="M -2,-13 L -11,1 L -3,1 L -6,13 L 5,-1 L -1,-1 Z" fill="#00D2FF" />
+    <!-- Pink Right Lightning Bolt -->
+    <path d="M 2,13 L 11,-1 L 3,-1 L 6,-13 L -5,1 L 1,1 Z" fill="#FF416C" />
+  </g>
+
+  <!-- Main Animated Name / Handle -->
+  <text x="450" y="118" text-anchor="middle" class="main-title">MAKSIM LARIN</text>
+
+  <!-- Subtitle Tagline -->
+  <text x="450" y="148" text-anchor="middle" class="sub-title">FULL-STACK &amp; BACKEND ENGINEER</text>
+
+  <!-- Tech Badges Line (Pill buttons in header) -->
+  <g transform="translate(450, 182)">
+    <!-- Pill 1: Go & TS -->
+    <g transform="translate(-165, 0)">
+      <rect x="-65" y="-13" width="130" height="26" rx="13" fill="#161b22" stroke="#00D2FF" stroke-width="1.2" stroke-opacity="0.8" />
+      <text x="0" y="4" text-anchor="middle" font-family="'Fira Code', monospace" font-size="11" font-weight="700" fill="#00D2FF">⚡ Go • TypeScript</text>
+    </g>
+
+    <!-- Pill 2: Bronze Award -->
+    <g transform="translate(0, 0)">
+      <rect x="-85" y="-13" width="170" height="26" rx="13" fill="#161b22" stroke="#FFD700" stroke-width="1.2" stroke-opacity="0.8" />
+      <text x="0" y="4" text-anchor="middle" font-family="'Fira Code', monospace" font-size="11" font-weight="700" fill="#FFD700">🥉 PostCode '26 Winner</text>
+    </g>
+
+    <!-- Pill 3: Distributed Systems -->
+    <g transform="translate(165, 0)">
+      <rect x="-65" y="-13" width="130" height="26" rx="13" fill="#161b22" stroke="#FF416C" stroke-width="1.2" stroke-opacity="0.8" />
+      <text x="0" y="4" text-anchor="middle" font-family="'Fira Code', monospace" font-size="11" font-weight="700" fill="#FF416C">🚀 High-Load &amp; K8s</text>
+    </g>
+  </g>
+</svg>

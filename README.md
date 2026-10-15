@@ -1,22 +1,25 @@
 <div align="center">
 
-  <h1>Привет, я Максим 👋</h1>
+  <a href="#-обо-мне">
+    <img src="header.svg" alt="Maksim Larin Header" width="100%" />
+  </a>
 
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=3000&pause=1000&color=00D2FF&center=true&vCenter=true&width=680&height=50&lines=Software+Engineer+%E2%80%A2+Full-Stack+%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%87%D0%B8%D0%BA;Go+%E2%80%A2+TypeScript+%E2%80%A2+React+%E2%80%A2+Python;%F0%9F%A5%89+3+%D0%BC%D0%B5%D1%81%D1%82%D0%BE+%D0%BD%D0%B0+%D1%85%D0%B0%D0%BA%D0%B0%D1%82%D0%BE%D0%BD%D0%B5+PostCode+Challenge+2026;%D0%A0%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%87%D0%B8%D0%BA+%D0%B2%D1%8B%D1%81%D0%BE%D0%BA%D0%BE%D0%BD%D0%B0%D0%B3%D1%80%D1%83%D0%B6%D0%B5%D0%BD%D0%BD%D1%8B%D1%85+%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC" alt="Typing SVG" />
+  <br/>
+
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=00D2FF&center=true&vCenter=true&width=680&height=45&lines=Software+Engineer+%E2%80%A2+Full-Stack+%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%87%D0%B8%D0%BA;Go+%E2%80%A2+TypeScript+%E2%80%A2+React+%E2%80%A2+Python;%F0%9F%A5%89+3+%D0%BC%D0%B5%D1%81%D1%82%D0%BE+%D0%BD%D0%B0+%D1%85%D0%B0%D0%BA%D0%B0%D1%82%D0%BE%D0%BD%D0%B5+PostCode+Challenge+2026;%D0%A0%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%87%D0%B8%D0%BA+%D0%B2%D1%8B%D1%81%D0%BE%D0%BA%D0%BE%D0%BD%D0%B0%D0%B3%D1%80%D1%83%D0%B6%D0%B5%D0%BD%D0%BD%D1%8B%D1%85+%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC" alt="Typing SVG" />
 
 </div>
 
----
+<img src="divider.svg" width="100%" />
 
 ### ⚡ Обо мне
 
-<!-- EDIT_ME: Здесь вы можете дополнить информацию о себе, интересах и планах -->
 - 🎓 **Специализация:** Архитектура бэкенда, высоконагруженные сервисы и Full-stack разработка
 - 🏆 **Главное достижение:** **🥉 3 место (Бронзовый призёр)** на всероссийском хакатоне **PostCode Challenge 2026** (система цифровой очереди Почты России)
 - 💡 **Интересы:** Чистая архитектура, многопоточность в Go, Cloud Native экосистема и быстрые веб-интерфейсы
 - 🌱 **Изучаю и развиваю:** Распределённые отказоустойчивые системы, Kubernetes-операторы и паттерны кэширования
 
----
+<img src="divider.svg" width="100%" />
 
 ### 🛠️ Стек технологий и инструменты
 
@@ -53,7 +56,7 @@
 
 </div>
 
----
+<img src="divider.svg" width="100%" />
 
 ### 📊 Активность и статистика
 
@@ -66,7 +69,7 @@
   <img src="https://streak-stats.demolab.com/?user=Shoto373&theme=tokyonight&hide_border=true&background=0D1117&ring=00D2FF&fire=FF416C&currStreakLabel=00D2FF" alt="Серия активности" width="95%"/>
 </div>
 
----
+<img src="divider.svg" width="100%" />
 
 ### 🚀 Избранные проекты
 
@@ -77,7 +80,7 @@
 | 🎆 [**ShowFusion**](https://github.com/Shoto373/ShowFusion) | Интерактивная веб-платформа и презентационный портал для сценических спецэффектов, звука, лазеров и светового шоу. | `TypeScript` `React` `Vite` `CSS` |
 | 📈 [**Study-tracker**](https://github.com/Shoto373/Study-tracker) | Персональный трекер учебной активности и продуктивности с подробной аналитикой и метриками успеваемости. | `TypeScript` `Analytics` `Productivity` |
 
----
+<img src="divider.svg" width="100%" />
 
 ### 📬 Связаться со мной
 
