@@ -97,15 +97,15 @@
 <div align="center">
 
   <a href="https://t.me/Shoto373" target="_blank">
-    <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/>
+    <img src="https://img.shields.io/badge/Telegram-@Shoto373-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/>
   </a>
   &nbsp;
-  <a href="mailto:maksimlarin2007@mail.ru">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  <a href="https://e.mail.ru/compose?to=maksimlarin2007@mail.ru" target="_blank">
+    <img src="https://img.shields.io/badge/Email-maksimlarin2007%40mail.ru-005FF9?style=for-the-badge&logo=mail.ru&logoColor=white" alt="Email"/>
   </a>
   &nbsp;
   <a href="https://github.com/Shoto373">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+    <img src="https://img.shields.io/badge/GitHub-Shoto373-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
 
 </div>
